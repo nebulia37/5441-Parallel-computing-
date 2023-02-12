@@ -1,0 +1,668 @@
+input counts: 3
+first par: 1
+MPI task 1 has started...  in process 1, offset = 30
+in process 1, chunksize = 30
+main: nproducers = 1, nconsumers = 16
+main: nproducers = 1, nconsumers = 16
+producer 1 inserting item 31 at 1
+producer 1 inserting item 32 at 2
+producer 1 inserting item 33 at 3
+producer 1 inserting item 34 at 4
+producer 1 inserting item 35 at 5
+producer 1 inserting item 36 at 6
+producer 1 inserting item 37 at 7
+producer 1 inserting item 38 at 8
+producer 1 inserting item 39 at 9
+producer 1 inserting item 40 at 0
+  consumer 6: starting
+consumer 6: extracting item 31 from 1
+producer 1 inserting item 41 at 1
+  consumer 7: starting
+consumer 7: extracting item 32 from 2
+producer 1 inserting item 42 at 2
+  consumer 8: starting
+consumer 8: extracting item 33 from 3
+input counts: 3
+first par: 1
+MPI task 0 has started...  read file into array: array size = 150
+num_procs= 5  chunksize= 30 
+Sent 30 elements to task 1 offset= 30
+Sent 30 elements to task 2 offset= 60
+Sent 30 elements to task 3 offset= 90
+Sent 30 elements to task 4 offset= 120
+in process 0, offset = 0
+main: nproducers = 1, nconsumers = 16
+producer 1 inserting item 1 at 1
+producer 1 inserting item 2 at 2
+producer 1 inserting item 3 at 3
+producer 1 inserting item 4 at 4
+producer 1 inserting item 5 at 5
+producer 1 inserting item 6 at 6
+producer 1 inserting item 7 at 7
+producer 1 inserting item 8 at 8
+producer 1 inserting item 9 at 9
+producer 1 inserting item 10 at 0
+  consumer 6: starting
+consumer 6: extracting item 1 from 1
+producer 1 inserting item 11 at 1
+  consumer 7: starting
+consumer 7: extracting item 2 from 2
+producer 1 inserting item 12 at 2
+  consumer 8: starting
+consumer 8: extracting item 3 from 3
+producer 1 inserting item 13 at 3
+  consumer 9: starting
+consumer 9: extracting item 4 from 4
+input counts: 3
+first par: 1
+MPI task 2 has started...  in process 2, offset = 60
+in process 2, chunksize = 30
+main: nproducers = 1, nconsumers = 16
+main: nproducers = 1, nconsumers = 16
+producer 1 inserting item 61 at 1
+producer 1 inserting item 62 at 2
+producer 1 inserting item 63 at 3
+producer 1 inserting item 64 at 4
+producer 1 inserting item 65 at 5
+producer 1 inserting item 66 at 6
+producer 1 inserting item 67 at 7
+producer 1 inserting item 68 at 8
+producer 1 inserting item 69 at 9
+producer 1 inserting item 70 at 0
+  consumer 6: starting
+consumer 6: extracting item 61 from 1
+input counts: 3
+first par: 1
+MPI task 4 has started...  in process 4, offset = 120
+in process 4, chunksize = 30
+main: nproducers = 1, nconsumers = 16
+main: nproducers = 1, nconsumers = 16
+producer 1 inserting item 121 at 1
+producer 1 inserting item 122 at 2
+producer 1 inserting item 123 at 3
+producer 1 inserting item 124 at 4
+producer 1 inserting item 125 at 5
+producer 1 inserting item 126 at 6
+producer 1 inserting item 127 at 7
+producer 1 inserting item 128 at 8
+producer 1 inserting item 129 at 9
+producer 1 inserting item 130 at 0
+  consumer 6: starting
+consumer 6: extracting item 121 from 1
+producer 1 inserting item 131 at 1
+  consumer 7: starting
+consumer 7: extracting item 122 from 2
+producer 1 inserting item 132 at 2
+  consumer 8: starting
+consumer 8: extracting item 123 from 3
+producer 1 inserting item 133 at 3
+input counts: 3
+first par: 1
+MPI task 3 has started...  in process 3, offset = 90
+in process 3, chunksize = 30
+main: nproducers = 1, nconsumers = 16
+main: nproducers = 1, nconsumers = 16
+producer 1 inserting item 91 at 1
+producer 1 inserting item 92 at 2
+producer 1 inserting item 93 at 3
+producer 1 inserting item 94 at 4
+producer 1 inserting item 95 at 5
+producer 1 inserting item 96 at 6
+producer 1 inserting item 97 at 7
+producer 1 inserting item 98 at 8
+producer 1 inserting item 99 at 9
+producer 1 inserting item 100 at 0
+  consumer 6: starting
+consumer 6: extracting item 91 from 1
+producer 1 inserting item 101 at 1
+  consumer 7: starting
+consumer 7: extracting item 92 from 2
+producer 1 inserting item 102 at 2
+  consumer 8: starting
+consumer 8: extracting item 93 from 3
+producer 1 inserting item 103 at 3
+  consumer 9: starting
+consumer 9: extracting item 94 from 4
+producer 1 inserting item 71 at 1
+  consumer 7: starting
+consumer 7: extracting item 62 from 2
+producer 1 inserting item 72 at 2
+  consumer 8: starting
+consumer 8: extracting item 63 from 3
+producer 1 inserting item 73 at 3
+  consumer 9: starting
+consumer 9: extracting item 64 from 4
+producer 1 inserting item 74 at 4
+  consumer 10: starting
+consumer 10: extracting item 65 from 5
+producer 1 inserting item 75 at 5
+  consumer 11: starting
+consumer 11: extracting item 66 from 6
+producer 1 inserting item 76 at 6
+  consumer 12: starting
+consumer 12: extracting item 67 from 7
+producer 1 inserting item 77 at 7
+  consumer 13: starting
+consumer 13: extracting item 68 from 8
+producer 1 inserting item 78 at 8
+  consumer 14: starting
+consumer 14: extracting item 69 from 9
+producer 1 inserting item 79 at 9
+  consumer 15: starting
+consumer 15: extracting item 70 from 0
+producer 1 inserting item 80 at 0
+  consumer 5: starting
+consumer 5: extracting item 71 from 1
+producer 1 inserting item 81 at 1
+  consumer 4: starting
+consumer 4: extracting item 72 from 2
+producer 1 inserting item 82 at 2
+  consumer 3: starting
+consumer 3: extracting item 73 from 3
+producer 1 inserting item 83 at 3
+  consumer 2: starting
+consumer 2: extracting item 74 from 4
+producer 1 inserting item 84 at 4
+  consumer 1: starting
+consumer 1: extracting item 75 from 5
+producer 1 inserting item 85 at 5
+  consumer 0: starting
+consumer 0: extracting item 76 from 6
+producer 1 inserting item 86 at 6
+producer 1 inserting item 14 at 4
+  consumer 10: starting
+consumer 10: extracting item 5 from 5
+producer 1 inserting item 15 at 5
+  consumer 11: starting
+consumer 11: extracting item 6 from 6
+producer 1 inserting item 16 at 6
+  consumer 12: starting
+consumer 12: extracting item 7 from 7
+producer 1 inserting item 17 at 7
+  consumer 13: starting
+consumer 13: extracting item 8 from 8
+producer 1 inserting item 18 at 8
+  consumer 14: starting
+consumer 14: extracting item 9 from 9
+producer 1 inserting item 19 at 9
+  consumer 15: starting
+consumer 15: extracting item 10 from 0
+producer 1 inserting item 20 at 0
+  consumer 5: starting
+consumer 5: extracting item 11 from 1
+producer 1 inserting item 21 at 1
+  consumer 4: starting
+consumer 4: extracting item 12 from 2
+producer 1 inserting item 22 at 2
+  consumer 3: starting
+consumer 3: extracting item 13 from 3
+producer 1 inserting item 23 at 3
+  consumer 2: starting
+consumer 2: extracting item 14 from 4
+producer 1 inserting item 24 at 4
+  consumer 1: starting
+consumer 1: extracting item 15 from 5
+producer 1 inserting item 25 at 5
+producer 1 inserting item 104 at 4
+  consumer 10: starting
+consumer 10: extracting item 95 from 5
+producer 1 inserting item 105 at 5
+  consumer 11: starting
+consumer 11: extracting item 96 from 6
+producer 1 inserting item 106 at 6
+  consumer 12: starting
+consumer 12: extracting item 97 from 7
+producer 1 inserting item 107 at 7
+  consumer 13: starting
+consumer 13: extracting item 98 from 8
+producer 1 inserting item 108 at 8
+  consumer 14: starting
+consumer 14: extracting item 99 from 9
+producer 1 inserting item 43 at 3
+  consumer 9: starting
+consumer 9: extracting item 34 from 4
+producer 1 inserting item 44 at 4
+  consumer 10: starting
+consumer 10: extracting item 35 from 5
+producer 1 inserting item 45 at 5
+  consumer 11: starting
+consumer 11: extracting item 36 from 6
+producer 1 inserting item 46 at 6
+  consumer 0: starting
+consumer 0: extracting item 16 from 6
+producer 1 inserting item 26 at 6
+  consumer 9: starting
+consumer 9: extracting item 124 from 4
+producer 1 inserting item 134 at 4
+  consumer 10: starting
+consumer 10: extracting item 125 from 5
+producer 1 inserting item 135 at 5
+  consumer 11: starting
+consumer 11: extracting item 126 from 6
+producer 1 inserting item 136 at 6
+  consumer 12: starting
+consumer 12: extracting item 127 from 7
+producer 1 inserting item 137 at 7
+  consumer 13: starting
+consumer 13: extracting item 128 from 8
+producer 1 inserting item 109 at 9
+  consumer 15: starting
+consumer 15: extracting item 100 from 0
+producer 1 inserting item 110 at 0
+  consumer 5: starting
+consumer 5: extracting item 101 from 1
+producer 1 inserting item 111 at 1
+  consumer 4: starting
+consumer 4: extracting item 102 from 2
+producer 1 inserting item 112 at 2
+  consumer 12: starting
+consumer 12: extracting item 37 from 7
+producer 1 inserting item 47 at 7
+  consumer 13: starting
+consumer 13: extracting item 38 from 8
+producer 1 inserting item 48 at 8
+  consumer 14: starting
+consumer 14: extracting item 39 from 9
+producer 1 inserting item 49 at 9
+producer 1 inserting item 138 at 8
+  consumer 14: starting
+consumer 14: extracting item 129 from 9
+producer 1 inserting item 139 at 9
+  consumer 15: starting
+consumer 15: extracting item 130 from 0
+producer 1 inserting item 140 at 0
+  consumer 5: starting
+consumer 5: extracting item 131 from 1
+  consumer 3: starting
+consumer 3: extracting item 103 from 3
+producer 1 inserting item 113 at 3
+  consumer 2: starting
+consumer 2: extracting item 104 from 4
+producer 1 inserting item 114 at 4
+  consumer 15: starting
+consumer 15: extracting item 40 from 0
+producer 1 inserting item 50 at 0
+  consumer 5: starting
+consumer 5: extracting item 41 from 1
+producer 1 inserting item 51 at 1
+  consumer 4: starting
+consumer 4: extracting item 42 from 2
+producer 1 inserting item 141 at 1
+  consumer 4: starting
+consumer 4: extracting item 132 from 2
+producer 1 inserting item 142 at 2
+  consumer 3: starting
+consumer 3: extracting item 133 from 3
+producer 1 inserting item 143 at 3
+  consumer 1: starting
+consumer 1: extracting item 105 from 5
+producer 1 inserting item 115 at 5
+producer 1 inserting item 52 at 2
+  consumer 2: starting
+consumer 2: extracting item 134 from 4
+producer 1 inserting item 144 at 4
+  consumer 0: starting
+consumer 0: extracting item 106 from 6
+producer 1 inserting item 116 at 6
+  consumer 3: starting
+consumer 3: extracting item 43 from 3
+producer 1 inserting item 53 at 3
+  consumer 1: starting
+consumer 1: extracting item 135 from 5
+producer 1 inserting item 145 at 5
+  consumer 2: starting
+consumer 2: extracting item 44 from 4
+producer 1 inserting item 54 at 4
+  consumer 0: starting
+consumer 0: extracting item 136 from 6
+producer 1 inserting item 146 at 6
+  consumer 1: starting
+consumer 1: extracting item 45 from 5
+producer 1 inserting item 55 at 5
+  consumer 0: starting
+consumer 0: extracting item 46 from 6
+producer 1 inserting item 56 at 6
+consumer 6: extracting item 17 from 7
+producer 1 inserting item 27 at 7
+consumer 7: extracting item 18 from 8
+producer 1 inserting item 28 at 8
+consumer 8: extracting item 19 from 9
+producer 1 inserting item 29 at 9
+consumer 9: extracting item 20 from 0
+producer 1 inserting item 30 at 0
+consumer 10: extracting item 21 from 1
+producer -1 inserting item -1 at 1
+consumer 11: extracting item 22 from 2
+producer -1 inserting item -1 at 2
+consumer 12: extracting item 23 from 3
+producer -1 inserting item -1 at 3
+consumer 13: extracting item 24 from 4
+producer -1 inserting item -1 at 4
+consumer 14: extracting item 25 from 5
+producer -1 inserting item -1 at 5
+consumer 15: extracting item 26 from 6
+producer -1 inserting item -1 at 6
+consumer 5: extracting item 27 from 7
+producer -1 inserting item -1 at 7
+consumer 4: extracting item 28 from 8
+producer -1 inserting item -1 at 8
+consumer 3: extracting item 29 from 9
+producer -1 inserting item -1 at 9
+consumer 2: extracting item 30 from 0
+producer -1 inserting item -1 at 0
+consumer 1: extracting item -1 from 1
+producer -1 inserting item -1 at 1
+  consumer 1: exiting
+consumer 0: extracting item -1 from 2
+producer -1 inserting item -1 at 2
+  consumer 0: exiting
+consumer 6: extracting item -1 from 3
+  consumer 6: exiting
+producer -1 inserting item -1 at 3
+consumer 7: extracting item -1 from 4
+  consumer 7: exiting
+producer -1 inserting item -1 at 4
+consumer 8: extracting item -1 from 5
+  consumer 8: exiting
+producer -1 inserting item -1 at 5
+consumer 9: extracting item -1 from 6
+  consumer 9: exiting
+producer -1 inserting item -1 at 6
+producer 1: exiting
+consumer 10: extracting item -1 from 7
+  consumer 10: exiting
+consumer 11: extracting item -1 from 8
+  consumer 11: exiting
+consumer 12: extracting item -1 from 9
+consumer 6: extracting item 47 from 7
+producer 1 inserting item 57 at 7
+consumer 7: extracting item 48 from 8
+producer 1 inserting item 58 at 8
+  consumer 12: exiting
+consumer 13: extracting item -1 from 0
+consumer 8: extracting item 49 from 9
+producer 1 inserting item 59 at 9
+consumer 9: extracting item 50 from 0
+producer 1 inserting item 60 at 0
+  consumer 13: exiting
+consumer 14: extracting item -1 from 1
+consumer 10: extracting item 51 from 1
+producer -1 inserting item -1 at 1
+consumer 11: extracting item 52 from 2
+producer -1 inserting item -1 at 2
+  consumer 14: exiting
+consumer 15: extracting item -1 from 2
+consumer 12: extracting item 53 from 3
+producer -1 inserting item -1 at 3
+consumer 13: extracting item 54 from 4
+producer -1 inserting item -1 at 4
+  consumer 15: exiting
+consumer 5: extracting item -1 from 3
+consumer 14: extracting item 55 from 5
+producer -1 inserting item -1 at 5
+consumer 15: extracting item 56 from 6
+producer -1 inserting item -1 at 6
+  consumer 5: exiting
+consumer 4: extracting item -1 from 4
+consumer 5: extracting item 57 from 7
+producer -1 inserting item -1 at 7
+consumer 4: extracting item 58 from 8
+producer -1 inserting item -1 at 8
+  consumer 4: exiting
+consumer 3: extracting item -1 from 5
+consumer 3: extracting item 59 from 9
+producer -1 inserting item -1 at 9
+consumer 2: extracting item 60 from 0
+producer -1 inserting item -1 at 0
+  consumer 3: exiting
+consumer 2: extracting item -1 from 6
+consumer 1: extracting item -1 from 1
+producer -1 inserting item -1 at 1
+  consumer 1: exiting
+consumer 0: extracting item -1 from 2
+producer -1 inserting item -1 at 2
+consumer 6: extracting item 77 from 7
+producer 1 inserting item 87 at 7
+consumer 7: extracting item 78 from 8
+producer 1 inserting item 88 at 8
+consumer 8: extracting item 79 from 9
+producer 1 inserting item 89 at 9
+consumer 9: extracting item 80 from 0
+producer 1 inserting item 90 at 0
+consumer 10: extracting item 81 from 1
+producer -1 inserting item -1 at 1
+consumer 11: extracting item 82 from 2
+producer -1 inserting item -1 at 2
+consumer 12: extracting item 83 from 3
+producer -1 inserting item -1 at 3
+consumer 13: extracting item 84 from 4
+producer -1 inserting item -1 at 4
+consumer 14: extracting item 85 from 5
+producer -1 inserting item -1 at 5
+consumer 15: extracting item 86 from 6
+producer -1 inserting item -1 at 6
+consumer 5: extracting item 87 from 7
+producer -1 inserting item -1 at 7
+consumer 4: extracting item 88 from 8
+producer -1 inserting item -1 at 8
+consumer 3: extracting item 89 from 9
+producer -1 inserting item -1 at 9
+consumer 2: extracting item 90 from 0
+producer -1 inserting item -1 at 0
+consumer 1: extracting item -1 from 1
+producer -1 inserting item -1 at 1
+  consumer 1: exiting
+consumer 0: extracting item -1 from 2
+producer -1 inserting item -1 at 2
+  consumer 0: exiting
+consumer 6: extracting item -1 from 3
+  consumer 6: exiting
+producer -1 inserting item -1 at 3
+consumer 7: extracting item -1 from 4
+  consumer 7: exiting
+producer -1 inserting item -1 at 4
+consumer 8: extracting item -1 from 5
+  consumer 8: exiting
+producer -1 inserting item -1 at 5
+consumer 9: extracting item -1 from 6
+  consumer 9: exiting
+producer -1 inserting item -1 at 6
+producer 1: exiting
+consumer 10: extracting item -1 from 7
+  consumer 10: exiting
+consumer 11: extracting item -1 from 8
+  consumer 11: exiting
+consumer 12: extracting item -1 from 9
+consumer 6: extracting item 107 from 7
+producer 1 inserting item 117 at 7
+consumer 7: extracting item 108 from 8
+producer 1 inserting item 118 at 8
+  consumer 12: exiting
+consumer 13: extracting item -1 from 0
+consumer 8: extracting item 109 from 9
+producer 1 inserting item 119 at 9
+consumer 9: extracting item 110 from 0
+producer 1 inserting item 120 at 0
+  consumer 13: exiting
+consumer 14: extracting item -1 from 1
+consumer 10: extracting item 111 from 1
+producer -1 inserting item -1 at 1
+consumer 11: extracting item 112 from 2
+producer -1 inserting item -1 at 2
+  consumer 14: exiting
+consumer 15: extracting item -1 from 2
+consumer 12: extracting item 113 from 3
+producer -1 inserting item -1 at 3
+consumer 13: extracting item 114 from 4
+producer -1 inserting item -1 at 4
+  consumer 15: exiting
+consumer 5: extracting item -1 from 3
+consumer 14: extracting item 115 from 5
+producer -1 inserting item -1 at 5
+consumer 15: extracting item 116 from 6
+producer -1 inserting item -1 at 6
+  consumer 5: exiting
+consumer 4: extracting item -1 from 4
+consumer 5: extracting item 117 from 7
+producer -1 inserting item -1 at 7
+consumer 4: extracting item 118 from 8
+producer -1 inserting item -1 at 8
+  consumer 4: exiting
+consumer 3: extracting item -1 from 5
+consumer 3: extracting item 119 from 9
+producer -1 inserting item -1 at 9
+consumer 2: extracting item 120 from 0
+producer -1 inserting item -1 at 0
+  consumer 3: exiting
+consumer 2: extracting item -1 from 6
+consumer 1: extracting item -1 from 1
+producer -1 inserting item -1 at 1
+  consumer 1: exiting
+consumer 0: extracting item -1 from 2
+producer -1 inserting item -1 at 2
+consumer 6: extracting item 137 from 7
+producer 1 inserting item 147 at 7
+consumer 7: extracting item 138 from 8
+producer 1 inserting item 148 at 8
+consumer 8: extracting item 139 from 9
+producer 1 inserting item 149 at 9
+consumer 9: extracting item 140 from 0
+producer 1 inserting item 150 at 0
+consumer 10: extracting item 141 from 1
+producer -1 inserting item -1 at 1
+consumer 11: extracting item 142 from 2
+producer -1 inserting item -1 at 2
+consumer 12: extracting item 143 from 3
+producer -1 inserting item -1 at 3
+consumer 13: extracting item 144 from 4
+producer -1 inserting item -1 at 4
+consumer 14: extracting item 145 from 5
+producer -1 inserting item -1 at 5
+consumer 15: extracting item 146 from 6
+producer -1 inserting item -1 at 6
+consumer 5: extracting item 147 from 7
+producer -1 inserting item -1 at 7
+consumer 4: extracting item 148 from 8
+producer -1 inserting item -1 at 8
+consumer 3: extracting item 149 from 9
+producer -1 inserting item -1 at 9
+consumer 2: extracting item 150 from 0
+producer -1 inserting item -1 at 0
+consumer 1: extracting item -1 from 1
+producer -1 inserting item -1 at 1
+  consumer 1: exiting
+consumer 0: extracting item -1 from 2
+producer -1 inserting item -1 at 2
+  consumer 0: exiting
+consumer 6: extracting item -1 from 3
+  consumer 6: exiting
+producer -1 inserting item -1 at 3
+consumer 7: extracting item -1 from 4
+  consumer 7: exiting
+producer -1 inserting item -1 at 4
+consumer 8: extracting item -1 from 5
+  consumer 8: exiting
+producer -1 inserting item -1 at 5
+consumer 9: extracting item -1 from 6
+  consumer 9: exiting
+producer -1 inserting item -1 at 6
+producer 1: exiting
+consumer 10: extracting item -1 from 7
+  consumer 10: exiting
+consumer 11: extracting item -1 from 8
+  consumer 11: exiting
+consumer 12: extracting item -1 from 9
+  consumer 12: exiting
+consumer 13: extracting item -1 from 0
+  consumer 13: exiting
+consumer 14: extracting item -1 from 1
+  consumer 14: exiting
+consumer 15: extracting item -1 from 2
+  consumer 15: exiting
+consumer 5: extracting item -1 from 3
+  consumer 5: exiting
+consumer 4: extracting item -1 from 4
+  consumer 4: exiting
+consumer 3: extracting item -1 from 5
+  consumer 3: exiting
+consumer 2: extracting item -1 from 6
+  consumer 0: exiting
+consumer 6: extracting item -1 from 3
+  consumer 6: exiting
+producer -1 inserting item -1 at 3
+consumer 7: extracting item -1 from 4
+  consumer 7: exiting
+producer -1 inserting item -1 at 4
+consumer 8: extracting item -1 from 5
+  consumer 8: exiting
+producer -1 inserting item -1 at 5
+consumer 9: extracting item -1 from 6
+  consumer 9: exiting
+producer -1 inserting item -1 at 6
+producer 1: exiting
+consumer 10: extracting item -1 from 7
+  consumer 10: exiting
+consumer 11: extracting item -1 from 8
+  consumer 11: exiting
+consumer 12: extracting item -1 from 9
+  consumer 12: exiting
+consumer 13: extracting item -1 from 0
+  consumer 13: exiting
+consumer 14: extracting item -1 from 1
+  consumer 14: exiting
+consumer 15: extracting item -1 from 2
+  consumer 15: exiting
+consumer 5: extracting item -1 from 3
+  consumer 5: exiting
+consumer 4: extracting item -1 from 4
+  consumer 4: exiting
+consumer 3: extracting item -1 from 5
+  consumer 3: exiting
+consumer 2: extracting item -1 from 6
+  consumer 0: exiting
+consumer 6: extracting item -1 from 3
+  consumer 6: exiting
+producer -1 inserting item -1 at 3
+consumer 7: extracting item -1 from 4
+  consumer 7: exiting
+producer -1 inserting item -1 at 4
+consumer 8: extracting item -1 from 5
+  consumer 8: exiting
+producer -1 inserting item -1 at 5
+consumer 9: extracting item -1 from 6
+  consumer 9: exiting
+producer -1 inserting item -1 at 6
+producer 1: exiting
+consumer 10: extracting item -1 from 7
+  consumer 10: exiting
+consumer 11: extracting item -1 from 8
+  consumer 11: exiting
+consumer 12: extracting item -1 from 9
+  consumer 12: exiting
+consumer 13: extracting item -1 from 0
+  consumer 13: exiting
+consumer 14: extracting item -1 from 1
+  consumer 14: exiting
+consumer 15: extracting item -1 from 2
+  consumer 15: exiting
+consumer 5: extracting item -1 from 3
+  consumer 5: exiting
+consumer 4: extracting item -1 from 4
+  consumer 4: exiting
+consumer 3: extracting item -1 from 5
+  consumer 3: exiting
+consumer 2: extracting item -1 from 6
+  consumer 2: exiting
+producer: read EOF, sending 16 '-1' numbers
+  consumer 2: exiting
+producer: read EOF, sending 16 '-1' numbers
+  consumer 2: exiting
+producer: read EOF, sending 16 '-1' numbers
+  consumer 2: exiting
+producer: read EOF, sending 16 '-1' numbers
+  consumer 2: exiting
+producer: read EOF, sending 16 '-1' numbers
+
+real	0m29.638s
+user	0m0.192s
+sys	0m0.056s

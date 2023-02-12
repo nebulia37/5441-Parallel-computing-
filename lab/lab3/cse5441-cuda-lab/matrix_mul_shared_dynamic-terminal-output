@@ -1,0 +1,7 @@
+Build matrix_mul_shared_dynamic
+Success: matrix_mul_shared_dynamic.cu compiled fine
+=====================================
+Success: matrix_mul_shared_dynamic.cu with block size 4 ran fine in 1m24.508s compute took 81.750000 seconds
+Success: matrix_mul_shared_dynamic.cu with block size 8 ran fine in 0m25.292s compute took 22.530000 seconds
+Success: matrix_mul_shared_dynamic.cu with block size 16 ran fine in 0m12.222s compute took 9.430000 seconds
+Success: matrix_mul_shared_dynamic.cu with block size 32 ran fine in 0m10.547s compute took 7.710000 seconds

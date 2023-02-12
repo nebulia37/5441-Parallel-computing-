@@ -1,0 +1,14 @@
+Build prod_cons_mpi_hybrid
+Success: prod_cons_mpi_hybrid.c compiled fine
+=====================================
+Running prod_cons_mpi_hybrid with shortlist
+=====================================
+Success: prod_cons_mpi_hybrid.c ran fine with 1 producers and 4 consumers for shortlist in 1m50.078s
+Success: prod_cons_mpi_hybrid.c ran fine with 1 producers and 6 consumers for shortlist in 1m10.197s
+Success: prod_cons_mpi_hybrid.c ran fine with 1 producers and 8 consumers for shortlist in 0m56.416s
+Success: prod_cons_mpi_hybrid.c ran fine with 1 producers and 16 consumers for shortlist in 0m29.638s
+Success: prod_cons_mpi_hybrid.c ran fine with 1 producers and 20 consumers for shortlist in 0m29.283s
+Running prod_cons_mpi_hybrid with longlist
+=====================================
+Success: prod_cons_mpi_hybrid.c ran fine with 1 producers and 4 consumers for longlist in 44m1.306s
+Success: prod_cons_mpi_hybrid.c ran fine with 1 producers and 6 consumers for longlist in 29m26.526s

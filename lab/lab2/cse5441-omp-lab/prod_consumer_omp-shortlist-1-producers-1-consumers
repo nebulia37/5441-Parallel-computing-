@@ -1,0 +1,30 @@
+main: nproducers = 1, nconsumers = 1
+consumer 0: starting
+producer 0 inserting 1 at 1
+producer 0 inserting 2 at 2
+producer 0 inserting 3 at 3
+producer 0 inserting 4 at 4
+producer 0 inserting 5 at 5
+producer 0 inserting 6 at 6
+producer 0 inserting 7 at 7
+producer 0 inserting 8 at 8
+producer 0 inserting 9 at 9
+producer 0 inserting 10 at 0
+consumer 0 extracting 1 from 1
+producer 0 inserting 9 at 1
+consumer 0 extracting 2 from 2
+producer 0 inserting 8 at 2
+consumer 0 extracting 3 from 3
+producer 0 inserting 7 at 3
+consumer 0 extracting 4 from 4
+producer 0 inserting 6 at 4
+consumer 0 extracting 5 from 5
+producer 0 inserting 5 at 5
+consumer 0 extracting 6 from 6
+producer 0 inserting 4 at 6
+consumer 0 extracting 7 from 7
+producer 0 inserting 3 at 7
+consumer 0 extracting 8 from 8
+producer 0 inserting 2 at 8
+consumer 0 extracting 9 from 9
+producer 0 inserting 1 at 9

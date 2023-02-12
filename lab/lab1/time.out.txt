@@ -1,0 +1,38 @@
+Build prod_consumer_mutex
+Success: prod_consumer_mutex.c compiled fine
+=====================================
+Running prod_consumer_mutex with shortlist
+=====================================
+Success: prod_consumer_mutex.c ran fine with 2 consumers for shortlist in 0m0.120s
+Success: prod_consumer_mutex.c ran fine with 4 consumers for shortlist in 0m0.073s
+Success: prod_consumer_mutex.c ran fine with 6 consumers for shortlist in 0m0.054s
+Success: prod_consumer_mutex.c ran fine with 8 consumers for shortlist in 0m0.052s
+=====================================
+Running prod_consumer_mutex with longlist
+=====================================
+Success: prod_consumer_mutex.c ran fine with 2 consumers for longlist in 0m0.380s
+Success: prod_consumer_mutex.c ran fine with 4 consumers for longlist in 0m0.211s
+Success: prod_consumer_mutex.c ran fine with 6 consumers for longlist in 0m0.136s
+Success: prod_consumer_mutex.c ran fine with 8 consumers for longlist in 0m0.223s
+=====================================
+Build prod_consumer_condvar
+Success: prod_consumer_condvar.c compiled fine
+=====================================
+Running prod_consumer_condvar with shortlist
+=====================================
+Success: prod_consumer_condvar.c ran fine with 2 consumers for shortlist in 0m0.085s
+Success: prod_consumer_condvar.c ran fine with 4 consumers for shortlist in 0m0.055s
+Success: prod_consumer_condvar.c ran fine with 6 consumers for shortlist in 0m0.046s
+Success: prod_consumer_condvar.c ran fine with 8 consumers for shortlist in 0m0.040s
+=====================================
+Running prod_consumer_condvar with longlist
+=====================================
+Success: prod_consumer_condvar.c ran fine with 2 consumers for longlist in 0m0.303s
+Success: prod_consumer_condvar.c ran fine with 4 consumers for longlist in 0m0.160s
+Success: prod_consumer_condvar.c ran fine with 6 consumers for longlist in 0m0.116s
+Success: prod_consumer_condvar.c ran fine with 8 consumers for longlist in 0m0.095s
+=====================================
+
+real	0m7.581s
+user	0m1.502s
+sys	0m0.413s

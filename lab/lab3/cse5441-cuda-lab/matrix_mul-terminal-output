@@ -1,0 +1,7 @@
+Build matrix_mul
+Success: matrix_mul.cu compiled fine
+=====================================
+Success: matrix_mul.cu with block size 4 ran fine in 1m43.128s compute took 100.490000 seconds
+Success: matrix_mul.cu with block size 8 ran fine in 0m53.732s compute took 51.100000 seconds
+Success: matrix_mul.cu with block size 16 ran fine in 0m53.132s compute took 50.490000 seconds
+Success: matrix_mul.cu with block size 32 ran fine in 0m52.397s compute took 49.730000 seconds

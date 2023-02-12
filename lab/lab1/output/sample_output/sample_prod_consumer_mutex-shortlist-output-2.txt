@@ -1,0 +1,100 @@
+main: nconsumers = 2
+  producer: starting
+producer inserting item 1 at 0
+producer inserting item 2 at 1
+producer inserting item 3 at 2
+producer inserting item 4 at 3
+producer inserting item 5 at 4
+producer inserting item 6 at 5
+producer inserting item 7 at 6
+producer inserting item 8 at 7
+producer inserting item 9 at 8
+producer inserting item 10 at 9
+  consumer 1: starting
+  consumer 0: starting
+consumer 1: extract item 1 from 1
+consumer 0: extract item 2 from 2
+producer inserting item 9 at 0
+producer inserting item 8 at 1
+consumer 1: extract item 3 from 3
+producer inserting item 7 at 2
+consumer 0: extract item 4 from 4
+consumer 1: extract item 5 from 5
+producer inserting item 6 at 3
+producer inserting item 5 at 4
+consumer 0: extract item 6 from 6
+consumer 1: extract item 7 from 7
+consumer 0: extract item 8 from 8
+producer inserting item 4 at 5
+producer inserting item 3 at 6
+producer inserting item 2 at 7
+consumer 1: extract item 9 from 9
+producer inserting item 1 at 8
+producer: read EOF, sending 2 '-1' numbers
+consumer 0: extract item 10 from 0
+consumer 1: extract item 9 from 1
+producer inserting item -1 at 9
+producer inserting item -1 at 0
+producer: exiting
+consumer 1: extract item 8 from 2
+consumer 0: extract item 7 from 3
+consumer 0: extract item 6 from 4
+consumer 1: extract item 5 from 5
+consumer 1: extract item 4 from 6
+consumer 0: extract item 3 from 7
+consumer 0: extract item 2 from 8
+consumer 1: extract item 1 from 9
+consumer 1: extract item -1 from 0
+  consumer 1: exiting
+consumer 0: extract item -1 from 1
+  consumer 0: exiting
+producer inserting item 3 at 2
+producer inserting item 4 at 3
+producer inserting item 5 at 4
+producer inserting item 6 at 5
+producer inserting item 7 at 6
+producer inserting item 8 at 7
+producer inserting item 9 at 8
+producer inserting item 10 at 9
+  consumer 1: starting
+  consumer 0: starting
+consumer 1: extract item 1 from 1
+consumer 0: extract item 2 from 2
+producer inserting item 9 at 0
+producer inserting item 8 at 1
+consumer 1: extract item 3 from 3
+producer inserting item 7 at 2
+consumer 0: extract item 4 from 4
+consumer 1: extract item 5 from 5
+producer inserting item 6 at 3
+producer inserting item 5 at 4
+consumer 0: extract item 6 from 6
+consumer 1: extract item 7 from 7
+consumer 0: extract item 8 from 8
+producer inserting item 4 at 5
+producer inserting item 3 at 6
+producer inserting item 2 at 7
+consumer 1: extract item 9 from 9
+producer inserting item 1 at 8
+producer: read EOF, sending 2 '-1' numbers
+consumer 0: extract item 10 from 0
+consumer 1: extract item 9 from 1
+producer inserting item -1 at 9
+producer inserting item -1 at 0
+producer: exiting
+consumer 1: extract item 8 from 2
+consumer 0: extract item 7 from 3
+consumer 0: extract item 6 from 4
+consumer 1: extract item 5 from 5
+consumer 1: extract item 4 from 6
+consumer 0: extract item 3 from 7
+consumer 0: extract item 2 from 8
+consumer 1: extract item 1 from 9
+consumer 1: extract item -1 from 0
+  consumer 1: exiting
+consumer 0: extract item -1 from 1
+  consumer 0: exiting
+
+real	0m0.120s
+user	0m0.034s
+sys	0m0.002s

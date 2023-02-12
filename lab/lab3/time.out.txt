@@ -1,0 +1,14 @@
+Build matrix_mul
+Success: matrix_mul.cu compiled fine
+=====================================
+Success: matrix_mul.cu with block size 4 ran fine in 1m43.138s compute took 100.480000 seconds
+Success: matrix_mul.cu with block size 8 ran fine in 0m53.735s compute took 51.100000 seconds
+Success: matrix_mul.cu with block size 16 ran fine in 0m53.173s compute took 50.500000 seconds
+Success: matrix_mul.cu with block size 32 ran fine in 0m52.390s compute took 49.730000 seconds
+Build matrix_mul_shared_dynamic
+Success: matrix_mul_shared_dynamic.cu compiled fine
+=====================================
+Success: matrix_mul_shared_dynamic.cu with block size 4 ran fine in 1m24.362s compute took 81.590000 seconds
+Success: matrix_mul_shared_dynamic.cu with block size 8 ran fine in 0m25.290s compute took 22.520000 seconds
+Success: matrix_mul_shared_dynamic.cu with block size 16 ran fine in 0m12.182s compute took 9.430000 seconds
+Success: matrix_mul_shared_dynamic.cu with block size 32 ran fine in 0m10.493s compute took 7.700000 seconds

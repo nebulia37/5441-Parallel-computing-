@@ -1,0 +1,10 @@
+    #pragma omp critical
+    #pragma omp critical
+    #pragma omp private(number,consumerno)
+        #pragma omp for
+    #pragma omp private(producerno,number)
+        #pragma omp for
+    #pragma omp single
+    #pragma omp parallel num_threads(2)
+            #pragma omp parallel num_threads(nconsumers) shared(out, itemCount)
+            #pragma omp parallel num_threads(nproducers) shared(in, itemCount)

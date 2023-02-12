@@ -1,0 +1,113 @@
+main: nproducers = 2, nconsumers = 3
+consumer 0: starting
+producer 4 inserting 1 at 0
+current size: 1
+consumer 0 extracting 1 from 0
+current size: 0
+producer 4 inserting 2 at 1
+current size: 1
+producer 4 inserting 3 at 2
+current size: 2
+producer 4 inserting 4 at 3
+current size: 3
+producer 4 inserting 5 at 4
+current size: 4
+consumer 0 extracting 2 from 1
+current size: 3
+producer 4 inserting 6 at 5
+current size: 4
+producer 4 inserting 7 at 6
+current size: 5
+producer 4 inserting 8 at 7
+current size: 6
+producer 4 inserting 9 at 8
+current size: 7
+producer 4 inserting 10 at 9
+current size: 8
+producer 4 inserting 9 at 0
+current size: 9
+producer 4 inserting 8 at 1
+current size: 10
+consumer 2: starting
+consumer 0 extracting 3 from 2
+current size: 9
+producer 4 inserting 7 at 2
+current size: 10
+consumer 2 extracting 4 from 3
+current size: 9
+producer 4 inserting 5 at 3
+current size: 10
+producer 3 inserting 6 at 4
+current size: 11
+producer 3 inserting 3 at 5
+current size: 12
+producer 3 inserting 2 at 6
+current size: 13
+producer 3 inserting 1 at 7
+current size: 14
+producer 3 inserting 1 at 8
+current size: 15
+producer 3 inserting 2 at 9
+current size: 16
+producer 3 inserting 3 at 0
+current size: 17
+producer 3 inserting 4 at 1
+current size: 18
+producer 3 inserting 5 at 2
+current size: 19
+consumer 0 extracting 6 from 4
+current size: 18
+producer 4 inserting 4 at 3
+current size: 19
+producer 4 inserting 6 at 4
+current size: 20
+producer 4 inserting 7 at 5
+current size: 21
+producer 4 inserting 8 at 6
+current size: 22
+producer 4 inserting 9 at 7
+current size: 23
+producer 4 inserting 10 at 8
+current size: 24
+producer 4 inserting 9 at 9
+current size: 25
+producer 4 inserting 8 at 0
+current size: 26
+producer 4 inserting 7 at 1
+current size: 27
+producer 4 inserting 6 at 2
+current size: 28
+producer 4 inserting 5 at 3
+current size: 29
+producer 4 inserting 4 at 4
+current size: 30
+producer 4 inserting 3 at 5
+current size: 31
+producer 4 inserting 2 at 6
+current size: 32
+producer 4 inserting 1 at 7
+current size: 33
+producer: read EOF, sending 3 '-1' numbers
+producer -1 inserting -1 at 8
+current size: 34
+producer -1 inserting -1 at 9
+current size: 35
+producer -1 inserting -1 at 0
+current size: 36
+producer 4: exiting
+consumer 2 extracting 3 from 5
+current size: 35
+consumer 1: starting
+consumer 1 extracting 2 from 6
+current size: 34
+consumer 1 extracting 1 from 7
+current size: 33
+consumer 2 extracting -1 from 8
+current size: 32
+consumer 2: exiting
+consumer 1 extracting -1 from 9
+current size: 31
+consumer 1: exiting
+consumer 0 extracting -1 from 0
+current size: 30
+consumer 0: exiting

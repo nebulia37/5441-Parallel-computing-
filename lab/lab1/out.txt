@@ -1,0 +1,71 @@
+main: nconsumers = 2
+  producer: starting
+Producer: Insert Item 1 at 0
+buffer_insert called with 1
+Producer: Insert Item 2 at 1
+buffer_insert called with 2
+Producer: Insert Item 3 at 2
+buffer_insert called with 3
+Producer: Insert Item 4 at 3
+buffer_insert called with 4
+Producer: Insert Item 5 at 4
+buffer_insert called with 5
+Producer: Insert Item 6 at 5
+buffer_insert called with 6
+Producer: Insert Item 7 at 6
+buffer_insert called with 7
+Producer: Insert Item 8 at 7
+buffer_insert called with 8
+Producer: Insert Item 9 at 8
+buffer_insert called with 9
+Producer: Insert Item 10 at 9
+buffer_insert called with 10
+  consumer 1: starting
+Consumer 1: Remove Item 1 from 1
+Producer: Insert Item 9 at 0
+buffer_insert called with 9
+  consumer 0: starting
+Consumer 0: Remove Item 2 from 2
+Producer: Insert Item 8 at 1
+buffer_insert called with 8
+Consumer 1: Remove Item 3 from 3
+Producer: Insert Item 7 at 2
+buffer_insert called with 7
+Consumer 0: Remove Item 4 from 4
+Producer: Insert Item 6 at 3
+buffer_insert called with 6
+Consumer 1: Remove Item 5 from 5
+Producer: Insert Item 5 at 4
+buffer_insert called with 5
+Consumer 0: Remove Item 6 from 6
+Producer: Insert Item 4 at 5
+buffer_insert called with 4
+Consumer 1: Remove Item 7 from 7
+Producer: Insert Item 3 at 6
+buffer_insert called with 3
+Consumer 0: Remove Item 8 from 8
+Producer: Insert Item 2 at 7
+buffer_insert called with 2
+Consumer 1: Remove Item 9 from 9
+Producer: Insert Item 1 at 8
+buffer_insert called with 1
+producer: read EOF, sending 2 '-1' numbers
+Consumer 0: Remove Item 10 from 0
+Producer: Insert Item -1 at 9
+buffer_insert called with -1
+Consumer 1: Remove Item 9 from 1
+Producer: Insert Item -1 at 0
+buffer_insert called with -1
+producer: exiting
+Consumer 0: Remove Item 8 from 2
+Consumer 1: Remove Item 7 from 3
+Consumer 0: Remove Item 6 from 4
+Consumer 1: Remove Item 5 from 5
+Consumer 0: Remove Item 4 from 6
+Consumer 1: Remove Item 3 from 7
+Consumer 0: Remove Item 2 from 8
+Consumer 1: Remove Item 1 from 9
+Consumer 0: Remove Item -1 from 0
+  consumer 0: exiting
+Consumer 1: Remove Item -1 from 1
+  consumer 1: exiting

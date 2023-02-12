@@ -1,0 +1,22 @@
+Program may be using 10 OMP pragmas and 2 OMP functions
+OMP Pragmas
+===========
+    #pragma omp critical
+    #pragma omp critical
+    #pragma omp private(number,consumerno)
+        #pragma omp for
+    #pragma omp private(producerno,number)
+        #pragma omp for
+    #pragma omp single
+    #pragma omp parallel num_threads(2)
+            #pragma omp parallel num_threads(nconsumers) shared(out, itemCount)
+            #pragma omp parallel num_threads(nproducers) shared(in, itemCount)
+OMP Functions
+=============
+    omp_set_nested(1);
+        if (omp_get_thread_num() == 0){
+Build prod_consumer_omp
+Success: prod_consumer_omp.c compiled fine
+=====================================
+Running prod_consumer_omp with shortlist
+=====================================

@@ -1,0 +1,96 @@
+Program may be using 10 OMP pragmas and 2 OMP functions
+OMP Pragmas
+===========
+    #pragma omp critical
+    #pragma omp critical
+    #pragma omp private(number,consumerno)
+        #pragma omp for
+    #pragma omp private(producerno,number)
+        #pragma omp for
+    #pragma omp single
+    #pragma omp parallel num_threads(2)
+            #pragma omp parallel num_threads(nconsumers) shared(out, itemCount)
+            #pragma omp parallel num_threads(nproducers) shared(in, itemCount)
+OMP Functions
+=============
+    omp_set_nested(1);
+        if (omp_get_thread_num() == 0){
+Build prod_consumer_omp
+Success: prod_consumer_omp.c compiled fine
+=====================================
+Running prod_consumer_omp with shortlist
+=====================================
+Success: prod_consumer_omp.c ran fine with 1 producers and 1 consumers for shortlist in 0m20.047s
+Success: prod_consumer_omp.c ran fine with 1 producers and 2 consumers for shortlist in 0m10.031s
+Success: prod_consumer_omp.c ran fine with 1 producers and 4 consumers for shortlist in 0m5.134s
+Success: prod_consumer_omp.c ran fine with 1 producers and 6 consumers for shortlist in 0m3.526s
+Success: prod_consumer_omp.c ran fine with 1 producers and 8 consumers for shortlist in 0m2.632s
+Success: prod_consumer_omp.c ran fine with 1 producers and 16 consumers for shortlist in 0m1.621s
+Success: prod_consumer_omp.c ran fine with 2 producers and 1 consumers for shortlist in 0m20.064s
+Success: prod_consumer_omp.c ran fine with 2 producers and 2 consumers for shortlist in 0m10.265s
+Success: prod_consumer_omp.c ran fine with 2 producers and 4 consumers for shortlist in 0m5.032s
+Success: prod_consumer_omp.c ran fine with 2 producers and 6 consumers for shortlist in 0m3.639s
+Success: prod_consumer_omp.c ran fine with 2 producers and 8 consumers for shortlist in 0m2.934s
+Success: prod_consumer_omp.c ran fine with 2 producers and 16 consumers for shortlist in 0m1.685s
+Success: prod_consumer_omp.c ran fine with 4 producers and 1 consumers for shortlist in 0m20.124s
+Success: prod_consumer_omp.c ran fine with 4 producers and 2 consumers for shortlist in 0m10.503s
+Success: prod_consumer_omp.c ran fine with 4 producers and 4 consumers for shortlist in 0m5.438s
+Success: prod_consumer_omp.c ran fine with 4 producers and 6 consumers for shortlist in 0m3.847s
+Success: prod_consumer_omp.c ran fine with 4 producers and 8 consumers for shortlist in 0m3.048s
+Success: prod_consumer_omp.c ran fine with 4 producers and 16 consumers for shortlist in 0m1.747s
+Success: prod_consumer_omp.c ran fine with 6 producers and 1 consumers for shortlist in 0m20.081s
+Success: prod_consumer_omp.c ran fine with 6 producers and 2 consumers for shortlist in 0m10.431s
+Success: prod_consumer_omp.c ran fine with 6 producers and 4 consumers for shortlist in 0m5.152s
+Success: prod_consumer_omp.c ran fine with 6 producers and 6 consumers for shortlist in 0m3.860s
+Success: prod_consumer_omp.c ran fine with 6 producers and 8 consumers for shortlist in 0m2.861s
+Success: prod_consumer_omp.c ran fine with 6 producers and 16 consumers for shortlist in 0m1.720s
+Success: prod_consumer_omp.c ran fine with 8 producers and 1 consumers for shortlist in 0m20.091s
+Success: prod_consumer_omp.c ran fine with 8 producers and 2 consumers for shortlist in 0m10.363s
+Success: prod_consumer_omp.c ran fine with 8 producers and 4 consumers for shortlist in 0m5.155s
+Success: prod_consumer_omp.c ran fine with 8 producers and 6 consumers for shortlist in 0m3.573s
+Success: prod_consumer_omp.c ran fine with 8 producers and 8 consumers for shortlist in 0m3.115s
+Success: prod_consumer_omp.c ran fine with 8 producers and 16 consumers for shortlist in 0m1.818s
+Success: prod_consumer_omp.c ran fine with 16 producers and 1 consumers for shortlist in 0m20.178s
+Success: prod_consumer_omp.c ran fine with 16 producers and 2 consumers for shortlist in 0m10.360s
+Success: prod_consumer_omp.c ran fine with 16 producers and 4 consumers for shortlist in 0m5.301s
+Success: prod_consumer_omp.c ran fine with 16 producers and 6 consumers for shortlist in 0m3.837s
+Success: prod_consumer_omp.c ran fine with 16 producers and 8 consumers for shortlist in 0m3.000s
+Success: prod_consumer_omp.c ran fine with 16 producers and 16 consumers for shortlist in 0m1.641s
+Running prod_consumer_omp with longlist
+=====================================
+Success: prod_consumer_omp.c ran fine with 1 producers and 1 consumers for longlist in 1m43.058s
+Success: prod_consumer_omp.c ran fine with 1 producers and 2 consumers for longlist in 0m51.633s
+Success: prod_consumer_omp.c ran fine with 1 producers and 4 consumers for longlist in 0m25.936s
+Success: prod_consumer_omp.c ran fine with 1 producers and 6 consumers for longlist in 0m17.431s
+Success: prod_consumer_omp.c ran fine with 1 producers and 8 consumers for longlist in 0m13.223s
+Success: prod_consumer_omp.c ran fine with 1 producers and 16 consumers for longlist in 0m6.764s
+Success: prod_consumer_omp.c ran fine with 2 producers and 1 consumers for longlist in 1m43.080s
+Success: prod_consumer_omp.c ran fine with 2 producers and 2 consumers for longlist in 0m51.683s
+Success: prod_consumer_omp.c ran fine with 2 producers and 4 consumers for longlist in 0m25.935s
+Success: prod_consumer_omp.c ran fine with 2 producers and 6 consumers for longlist in 0m17.541s
+Success: prod_consumer_omp.c ran fine with 2 producers and 8 consumers for longlist in 0m13.137s
+Success: prod_consumer_omp.c ran fine with 2 producers and 16 consumers for longlist in 0m6.763s
+Success: prod_consumer_omp.c ran fine with 4 producers and 1 consumers for longlist in 1m43.136s
+Success: prod_consumer_omp.c ran fine with 4 producers and 2 consumers for longlist in 0m51.808s
+Success: prod_consumer_omp.c ran fine with 4 producers and 4 consumers for longlist in 0m26.005s
+Success: prod_consumer_omp.c ran fine with 4 producers and 6 consumers for longlist in 0m17.558s
+Success: prod_consumer_omp.c ran fine with 4 producers and 8 consumers for longlist in 0m13.364s
+Success: prod_consumer_omp.c ran fine with 4 producers and 16 consumers for longlist in 0m7.093s
+Success: prod_consumer_omp.c ran fine with 6 producers and 1 consumers for longlist in 1m43.125s
+Success: prod_consumer_omp.c ran fine with 6 producers and 2 consumers for longlist in 0m51.752s
+Success: prod_consumer_omp.c ran fine with 6 producers and 4 consumers for longlist in 0m26.074s
+Success: prod_consumer_omp.c ran fine with 6 producers and 6 consumers for longlist in 0m17.665s
+Success: prod_consumer_omp.c ran fine with 6 producers and 8 consumers for longlist in 0m13.265s
+Success: prod_consumer_omp.c ran fine with 6 producers and 16 consumers for longlist in 0m7.102s
+Success: prod_consumer_omp.c ran fine with 8 producers and 1 consumers for longlist in 1m43.104s
+Success: prod_consumer_omp.c ran fine with 8 producers and 2 consumers for longlist in 0m51.707s
+Success: prod_consumer_omp.c ran fine with 8 producers and 4 consumers for longlist in 0m26.233s
+Success: prod_consumer_omp.c ran fine with 8 producers and 6 consumers for longlist in 0m17.684s
+Success: prod_consumer_omp.c ran fine with 8 producers and 8 consumers for longlist in 0m13.275s
+Success: prod_consumer_omp.c ran fine with 8 producers and 16 consumers for longlist in 0m6.877s
+Success: prod_consumer_omp.c ran fine with 16 producers and 1 consumers for longlist in 1m43.218s
+Success: prod_consumer_omp.c ran fine with 16 producers and 2 consumers for longlist in 0m51.803s
+Success: prod_consumer_omp.c ran fine with 16 producers and 4 consumers for longlist in 0m25.991s
+Success: prod_consumer_omp.c ran fine with 16 producers and 6 consumers for longlist in 0m17.744s
+Success: prod_consumer_omp.c ran fine with 16 producers and 8 consumers for longlist in 0m13.490s
+Success: prod_consumer_omp.c ran fine with 16 producers and 16 consumers for longlist in 0m7.145s

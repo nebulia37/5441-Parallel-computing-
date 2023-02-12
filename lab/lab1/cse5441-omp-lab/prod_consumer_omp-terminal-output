@@ -1,0 +1,13 @@
+Program may be using 1 OMP pragmas and 1 OMP functions
+OMP Pragmas
+===========
+grep: prod_consumer_omp.c: No such file or directory
+OMP Functions
+=============
+grep: prod_consumer_omp.c: No such file or directory
+Build prod_consumer_omp
+Error: There are compilation errors with prod_consumer_omp.c
+gcc: error: prod_consumer_omp.c: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+Error: Please fix the errors and retry.
